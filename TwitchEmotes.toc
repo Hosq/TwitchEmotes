@@ -1,0 +1,9 @@
+## Interface: 80200
+## Title: Better Twitch Emotes
+## Author: tannerng
+## Notes: Adds Twitch chat emotes into WoW chat
+## Version: 1.1.3
+## SavedVariables: BTEConfigEmotes
+
+Config.lua
+TwitchEmotes.lua
