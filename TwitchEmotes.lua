@@ -10,6 +10,7 @@ BTEMOTES[":hene2:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/hene2:32:21:0:0
 BTEMOTES[":yotfr:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/yotfr:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES[":thrashing:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/thrashing:26:26:0:0:128:64:0:28:0:28\124t"
 BTEMOTES[":toxic:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/toxic:26:29:0:0:128:64:0:29:0:26\124t"
+BTEMOTES[":sigu:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/toxic:26:29:0:0:128:64:0:29:0:26\124t"
 BTEMOTES[":skype:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/skype:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES[":fisk:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/fisk:32:28:0:0:128:64:0:28:0:32\124t"
 BTEMOTES[":badboy:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/badboy:26:26:0:0:128:64:0:32:0:32\124t"
@@ -17,6 +18,13 @@ BTEMOTES[":24:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/24:32:23:0:0:128:6
 BTEMOTES[":Cometz:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/Cometz:32:21:0:0:128:64:0:21:0:32\124t"
 BTEMOTES[":swestate:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/swestate:28:26:0:0:128:64:0:26:0:28\124t"
 BTEMOTES[":fap:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/fap:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":ahegao:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/ahegao:30:28:0:0:128:64:0:28:0:30\124t"
+BTEMOTES[":pick:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/pick:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":casual:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/casual:32:23:0:0:128:64:0:23:0:32\124t"
+BTEMOTES[":jew:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/jew:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":fleshlight:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/fleshlight:20:32:0:0:128:64:0:32:0:20\124t"
+
+BTEMOTES["monkaChrist"] = "\124TInterface/AddOns/TwitchEmotes/emotes/monkaChrist:26:26:0:0:128:64:0:32:0:32\124t"
 
 BTEMOTES["3Head"] = "\124TInterface/AddOns/TwitchEmotes/emotes/3Head:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES["4Head"] = "\124TInterface/AddOns/TwitchEmotes/emotes/4Head:24:16:0:0:128:64:0:20:0:30\124t"
