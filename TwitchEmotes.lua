@@ -23,7 +23,9 @@ BTEMOTES[":pick:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/pick:26:26:0:0:1
 BTEMOTES[":casual:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/casual:32:23:0:0:128:64:0:23:0:32\124t"
 BTEMOTES[":jew:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/jew:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES[":fleshlight:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/fleshlight:20:32:0:0:128:64:0:32:0:20\124t"
+BTEMOTES[":hosq:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/hosq:26:26:0:0:128:64:0:32:0:32\124t"
 
+BTEMOTES["REEE"] = "\124TInterface/AddOns/TwitchEmotes/emotes/REEE:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES["monkaChrist"] = "\124TInterface/AddOns/TwitchEmotes/emotes/monkaChrist:26:26:0:0:128:64:0:32:0:32\124t"
 
 BTEMOTES["3Head"] = "\124TInterface/AddOns/TwitchEmotes/emotes/3Head:26:26:0:0:128:64:0:32:0:32\124t"
@@ -186,19 +188,24 @@ function replaceEmotes(message, t, smiley)
         tp = string.sub(t, 1, 1).."%"..string.sub(t, 2, 2)
     end
     
-    message = string.gsub(message, "^"..tp.."$", BTEMOTES[t]) --solo emote
-    message = string.gsub(message, "^"..tp.."(%s)", BTEMOTES[t].."%1") --emote at beginning with trailing space
-    message = string.gsub(message, "(%s)"..tp.."(%s)", "%1"..BTEMOTES[t].."%2") --emote with leading and trailing space
-    message = string.gsub(message, "(%s)"..tp.."$", "%1"..BTEMOTES[t]) --emote at end with leading space
+    message = string.gsub(message, "^"..tp.."$", BTEMOTES[t], 1) --solo emote
+    message = string.gsub(message, "^"..tp.."(%s)", BTEMOTES[t].."%1", 1) --emote at beginning with trailing space
+    message = string.gsub(message, "(%s)"..tp.."(%s)", "%1"..BTEMOTES[t].."%2", 1) --emote with leading and trailing space
+    message = string.gsub(message, "(%s)"..tp.."$", "%1"..BTEMOTES[t], 1) --emote at end with leading space
     
     return message
 end
 
 function onChatMessage(self, event, message, ...)
+	local count = 0
     for t in string.gmatch(message, "%S+") do -- tokenize string
         if BTEMOTES[t] and BTEConfigEmotes[t] then -- if token is an emote
             local smiley = string.sub(t, 2, 2) == ")" or string.sub(t, 2, 2) == "("    -- handle stupid robot face emotes
             message = replaceEmotes(message, t, smiley)
+			count = count + 1
+			if count == 9 then
+				break;
+			end
         end
     end
     
