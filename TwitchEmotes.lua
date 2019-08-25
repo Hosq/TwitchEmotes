@@ -7,6 +7,7 @@
 BTEMOTES = {}
 
 BTEMOTES[":hene2:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/hene2:32:21:0:0:128:64:0:32:0:48\124t"
+BTEMOTES[":darklayr:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/darklayr:32:24:0:0:128:64:0:32:0:43\124t"
 BTEMOTES[":yotfr:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/yotfr:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES[":thrashing:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/thrashing:26:26:0:0:128:64:0:28:0:28\124t"
 BTEMOTES[":toxic:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/toxic:26:29:0:0:128:64:0:29:0:26\124t"
@@ -24,9 +25,25 @@ BTEMOTES[":casual:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/casual:32:23:0
 BTEMOTES[":jew:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/jew:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES[":fleshlight:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/fleshlight:20:32:0:0:128:64:0:32:0:20\124t"
 BTEMOTES[":hosq:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/hosq:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":drunk:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/drunk:23:26:0:0:128:64:0:32:0:28\124t"
+BTEMOTES[":council:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/council:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":clc:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/drunk:26:28:0:0:128:64:0:34:0:32\124t"
+BTEMOTES[":finnstate:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/finstate:26:36:0:0:128:64:0:44:0:32\124t"
+BTEMOTES[":sapper:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/sapper:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":kami:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/kami:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":pikachu:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/pikachu:26:33:0:0:128:64:0:40:0:32\124t"
+BTEMOTES[":nether:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/nether:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":clchoker:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/clchoker:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":elements:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/elements:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":goodboy:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/goodboy:26:26:0:0:128:64:0:32:0:32\124t"
 
 BTEMOTES["REEE"] = "\124TInterface/AddOns/TwitchEmotes/emotes/REEE:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES["monkaChrist"] = "\124TInterface/AddOns/TwitchEmotes/emotes/monkaChrist:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["PepeClose"] = "\124TInterface/AddOns/TwitchEmotes/emotes/pepeClose:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["FeelsBanMan"] = "\124TInterface/AddOns/TwitchEmotes/emotes/FeelsBanMan:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["FeelsSurrenderMan"] = "\124TInterface/AddOns/TwitchEmotes/emotes/FeelsSurrenderMan:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["PepeOld"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PepeOld:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["PepeWheelchair"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PepeWheelchair:26:26:0:0:128:64:0:32:0:32\124t"
 
 BTEMOTES["3Head"] = "\124TInterface/AddOns/TwitchEmotes/emotes/3Head:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES["4Head"] = "\124TInterface/AddOns/TwitchEmotes/emotes/4Head:24:16:0:0:128:64:0:20:0:30\124t"
