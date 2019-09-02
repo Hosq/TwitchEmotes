@@ -24,7 +24,7 @@ BTEMOTES[":druid:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/druid:26:26:0:0
 
 BTEMOTES[":hene2:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/hene2:32:21:0:0:128:64:0:32:0:48\124t"
 BTEMOTES[":layrswap:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/layrswap:32:21:0:0:128:64:0:32:0:48\124t"
-BTEMOTES[":darklayr:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/darklayr:32:24:0:0:128:64:0:32:0:43\124t"
+BTEMOTES[":darklayr:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/darklayr:32:25:0:0:128:64:0:32:0:41\124t"
 BTEMOTES[":yotfr:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/yotfr:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES[":thrashing:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/thrashing:26:26:0:0:128:64:0:28:0:28\124t"
 BTEMOTES[":toxic:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/toxic:26:29:0:0:128:64:0:29:0:26\124t"
