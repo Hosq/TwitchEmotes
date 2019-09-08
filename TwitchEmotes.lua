@@ -61,6 +61,7 @@ BTEMOTES[":confirmed:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/confirmed:2
 BTEMOTES[":smart:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PepeSmart:32:29:0:0:128:64:0:29:0:32\124t"
 BTEMOTES[":peperip:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PepeRip:32:27:0:0:128:64:0:32:0:38\124t"
 BTEMOTES[":sbob:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/Spongebob:32:34:0:0:128:64:0:34:0:32\124t"
+BTEMOTES[":100:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/100:26:28:0:0:128:64:0:34:0:32\124t"
 
 BTEMOTES["REEE"] = "\124TInterface/AddOns/TwitchEmotes/emotes/REEE:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES["monkaChrist"] = "\124TInterface/AddOns/TwitchEmotes/emotes/monkaChrist:26:26:0:0:128:64:0:32:0:32\124t"
