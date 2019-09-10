@@ -227,6 +227,43 @@ BTEMOTES["haHAA"] = "\124TInterface/AddOns/TwitchEmotes/emotes/haHAA:26:26:0:0:1
 BTEMOTES["peepoPoo"] = "\124TInterface/AddOns/TwitchEmotes/emotes/peepoPoo:26:25:0:0:128:64:0:31:0:32\124t"
 BTEMOTES["peepoStrong"] = "\124TInterface/AddOns/TwitchEmotes/emotes/peepoStrong:16:26:0:0:128:64:0:28:0:17\124t"
 
+function changeCase(str)
+    local u = ""
+    for i = 1, #str do
+        if i % 2 == 1 then
+            u = u .. string.upper(str:sub(i, i))
+        else
+            u = u .. string.lower(str:sub(i, i))
+        end
+    end
+    return u
+end
+
+local SavedSendChatMessage = SendChatMessage;
+
+function TwitchEmotes_SendChatMessage(message, system, language, channel)
+
+	if string.match(message, "^:sbob:") and string.match(message, ":sbob:$") then
+		string.len(message)
+		message = string.sub(message, 7, string.len(message)-7)
+		local words = {}
+		for v in message:gmatch("%w+") do 
+			words[#words + 1] = v
+		end
+		for i,v in ipairs(words) do
+			words[i] = changeCase(v)
+		end
+		local result = table.concat(words, " ")
+		message = ":sbob: "..result.." :sbob:"
+	end
+
+	--Your 'before' code here
+	SavedSendChatMessage(message, system, language, channel);
+	--Your 'after' code here
+end
+
+SendChatMessage = TwitchEmotes_SendChatMessage;
+
 function replaceEmotes(message, t, smiley)
     local tp = t
     if smiley then
