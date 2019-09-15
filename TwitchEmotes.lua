@@ -229,11 +229,13 @@ BTEMOTES["peepoStrong"] = "\124TInterface/AddOns/TwitchEmotes/emotes/peepoStrong
 
 function changeCase(str)
     local u = ""
-    for i = 1, #str do
+	local d = ""
+    for i = 1, string.utf8len(str) do
+		d = string.utf8sub(str, i, i)
         if i % 2 == 1 then
-            u = u .. string.upper(str:sub(i, i))
+			u = u .. string.upper(d)
         else
-            u = u .. string.lower(str:sub(i, i))
+            u = u .. string.lower(d)
         end
     end
     return u
@@ -242,24 +244,14 @@ end
 local SavedSendChatMessage = SendChatMessage;
 
 function TwitchEmotes_SendChatMessage(message, system, language, channel)
-
 	if string.match(message, "^:sbob:") and string.match(message, ":sbob:$") then
 		string.len(message)
 		message = string.sub(message, 7, string.len(message)-7)
-		local words = {}
-		for v in message:gmatch("%w+") do 
-			words[#words + 1] = v
-		end
-		for i,v in ipairs(words) do
-			words[i] = changeCase(v)
-		end
-		local result = table.concat(words, " ")
+		local result = changeCase(message)
 		message = ":sbob: "..result.." :sbob:"
 	end
 
-	--Your 'before' code here
 	SavedSendChatMessage(message, system, language, channel);
-	--Your 'after' code here
 end
 
 SendChatMessage = TwitchEmotes_SendChatMessage;
