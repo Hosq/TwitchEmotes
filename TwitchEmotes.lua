@@ -146,6 +146,7 @@ BTEMOTES["Pog"] = "\124TInterface/AddOns/TwitchEmotes/emotes/Pog:25:25:0:0:128:6
 BTEMOTES["PogChamp"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PogChamp:26:20:0:0:128:64:0:23:0:30\124t"
 BTEMOTES["Pogey"] = "\124TInterface/AddOns/TwitchEmotes/emotes/Pogey:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES["POGGERS"] = "\124TInterface/AddOns/TwitchEmotes/emotes/POGGERS:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["poggers"] = "\124TInterface/AddOns/TwitchEmotes/emotes/POGGERS:15:15:0:0:128:64:0:32:0:32\124t"
 BTEMOTES["PogU"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PogU:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES["POOGERS"] = "\124TInterface/AddOns/TwitchEmotes/emotes/POOGERS:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES["ResidentSleeper"] = "\124TInterface/AddOns/TwitchEmotes/emotes/ResidentSleeper:24:24:0:0:128:64:0:28:0:28\124t"
