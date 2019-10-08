@@ -232,6 +232,29 @@ BTEMOTES["haHAA"] = "\124TInterface/AddOns/TwitchEmotes/emotes/haHAA:26:26:0:0:1
 BTEMOTES["peepoPoo"] = "\124TInterface/AddOns/TwitchEmotes/emotes/peepoPoo:26:25:0:0:128:64:0:31:0:32\124t"
 BTEMOTES["peepoStrong"] = "\124TInterface/AddOns/TwitchEmotes/emotes/peepoStrong:16:26:0:0:128:64:0:28:0:17\124t"
 
+emoteList = {}
+for key, value in pairs(BTEMOTES) do
+	table.insert(emoteList, key)
+end
+local AceTab = LibStub("AceTab-3.0")
+
+
+
+AceTab:RegisterTabCompletion("Emotes", nil, emoteList,
+	function(u, cands, ...)
+		local candcount = 0
+			local text
+			for key, cand in pairs(cands) do
+				text = text and (text .. ", " .. cand .. BTEMOTES[cand]) or cand .. BTEMOTES[cand]
+				candcount = candcount + 1
+			end
+		if candcount <= 20 then
+			return "   " .. text
+		else
+			return "   " .. "Too many matches ("..candcount.." possible)"
+		end
+	end)
+
 function changeCase(str)
     local u = ""
 	local d = ""

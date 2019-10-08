@@ -5,6 +5,8 @@
 ## Version: 1.1.3
 ## SavedVariables: BTEConfigEmotes
 
-UTF8\UTF8.xml
+Libs\LibStub\LibStub.lua
+Libs\UTF8\UTF8.xml
+Libs\AceTab-3.0\AceTab-3.0.xml
 Config.lua
 TwitchEmotes.lua
