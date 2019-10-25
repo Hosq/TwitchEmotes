@@ -326,7 +326,7 @@ function AceTab:OnTabPressed(this)
 		if strfind(command, "^/[%a%d_]+$") then
 			return true
 		end
-		if strfind(command, "^/w%s[%a%d_]+$") or strfind(command, "^/whisper%s[%a%d_]+$") then
+		if strfind(command, "^/w%s[%a%d_]+$") or strfind(command, "^/whisper%s[%a%d_]+$") or strfind(command, "^/i%s[%a%d_]+$") or strfind(command, "^/invite%s[%a%d_]+$") then
 			return true
 		end
 		local cmd = strmatch(command, "^/[%a%d_]+")
