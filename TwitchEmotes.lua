@@ -81,6 +81,9 @@ BTEMOTES["PepeOk"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PepeOk:26:26:0:0
 BTEMOTES[":pepepopcorn:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PepePopcorn:26:21:0:0:128:64:0:26:0:32\124t"
 BTEMOTES["PepePopcorn"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PepePopcorn:26:21:0:0:128:64:0:26:0:32\124t"
 BTEMOTES["OMEGAKEK"] = "\124TInterface/AddOns/TwitchEmotes/emotes/OMEGAKEK:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["PepeYikes"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PepeYikes:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["PepeAdore"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PepeAdore:26:26:0:0:128:64:0:32:0:32\124t"
+
 
 BTEMOTES["3Head"] = "\124TInterface/AddOns/TwitchEmotes/emotes/3Head:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES["4Head"] = "\124TInterface/AddOns/TwitchEmotes/emotes/4Head:24:16:0:0:128:64:0:20:0:30\124t"
