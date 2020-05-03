@@ -66,7 +66,29 @@ BTEMOTES[":100:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/100:26:28:0:0:128
 BTEMOTES[":yottfrs:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/yottfrs:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES[":yotters:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/yottfrs:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES[":forbiddenore:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/forbiddenore:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":forbiddenpotion:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/forbiddenpotion:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":buffcap:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/buffcap:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":hurri:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/hurri:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":progress:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/progress:24:26:0:0:128:64:0:27:0:25\124t"
+BTEMOTES[":pvebean:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/pvebean:26:18:0:0:128:64:0:22:0:32\124t"
+BTEMOTES[":speedrun:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/speedrun:26:26:0:0:128:64:0:32:0:32\124t"
 
+BTEMOTES["FeelsUnbuffedMan"] = "\124TInterface/AddOns/TwitchEmotes/emotes/FeelsUnbuffedMan:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["KEKWCAP"] = "\124TInterface/AddOns/TwitchEmotes/emotes/KEKWCAP:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["monkaCoffee"] = "\124TInterface/AddOns/TwitchEmotes/emotes/monkaCoffee:26:25:0:0:128:64:0:26:0:27\124t"
+BTEMOTES[":monkabrm:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/monkabrm:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["monkaBrm"] = "\124TInterface/AddOns/TwitchEmotes/emotes/monkabrm:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["peepoGGERS"] = "\124TInterface/AddOns/TwitchEmotes/emotes/peepoGGERS:20:26:0:0:128:64:0:32:0:24\124t"
+BTEMOTES["peepoLove"] = "\124TInterface/AddOns/TwitchEmotes/emotes/peepoLove:20:26:0:0:128:64:0:32:0:24\124t"
+BTEMOTES["peepoUnicorn"] = "\124TInterface/AddOns/TwitchEmotes/emotes/peepoUnicorn:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["peepoWar"] = "\124TInterface/AddOns/TwitchEmotes/emotes/peepoWar:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":pepesun:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PepeCapriSun:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["CapriSunPepe"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PepeCapriSun:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["PepeTea"] = "\124TInterface/AddOns/TwitchEmotes/emotes/PepeTea:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES[":pepetiger:"] = "\124TInterface/AddOns/TwitchEmotes/emotes/pepetiger:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["PepeTiger"] = "\124TInterface/AddOns/TwitchEmotes/emotes/pepetiger:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["PepeWeird"] = "\124TInterface/AddOns/TwitchEmotes/emotes/pepeweird:26:26:0:0:128:64:0:32:0:32\124t"
+BTEMOTES["YAMERO"] = "\124TInterface/AddOns/TwitchEmotes/emotes/YAMERO:21:26:0:0:128:64:0:32:0:26\124t"
 BTEMOTES["REEE"] = "\124TInterface/AddOns/TwitchEmotes/emotes/REEE:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES["monkaChrist"] = "\124TInterface/AddOns/TwitchEmotes/emotes/monkaChrist:26:26:0:0:128:64:0:32:0:32\124t"
 BTEMOTES["PepeClose"] = "\124TInterface/AddOns/TwitchEmotes/emotes/pepeClose:26:26:0:0:128:64:0:32:0:32\124t"
@@ -245,8 +267,6 @@ for key, value in pairs(BTEMOTES) do
 	table.insert(emoteList, key)
 end
 local AceTab = LibStub("AceTab-3.0")
-
-
 
 AceTab:RegisterTabCompletion("Emotes", nil, emoteList,
 	function(u, cands, ...)
