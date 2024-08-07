@@ -97,4 +97,5 @@ BTEConfig.panel.default = function(self)
     for k,v in pairs(BTEConfigEmotes) do v = true end
 end
 
-InterfaceOptions_AddCategory(BTEConfig.panel)
+local category = Settings.RegisterCanvasLayoutCategory(BTEConfig.panel, BTEConfig.panel.name)
+Settings.RegisterAddOnCategory(category)
